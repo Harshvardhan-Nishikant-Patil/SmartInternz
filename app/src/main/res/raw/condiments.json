@@ -1,0 +1,37 @@
+[
+  {
+    "name": "mayonnaise",
+    "description": "a thick creamy dressing consisting of egg yolks beaten with oil and vinegar and seasoned",
+    "sku": "may/con",
+    "price": 5.33,
+    "image": "mayonnaise"
+  },
+  {
+    "name": "mustard",
+    "description": "a pungent yellow condiment consisting of the pulverized seeds of various mustard plants (such as Sinapis alba, Brassica juncea, and B. nigra) either dry or made into a paste or sauce (as by mixing with water or vinegar) and sometimes adulterated with other substances (such as turmeric) or mixed with spices",
+    "sku": "mus/con",
+    "price": 4.55,
+    "image": "mustard"
+  },
+  {
+    "name": "ketchup",
+    "description": "a smooth sauce made chiefly from tomatoes and vinegar, used as a relish",
+    "sku": "ket/con",
+    "price": 2.84,
+    "image": "ketchup"
+  },
+  {
+  "name": "garlic paste",
+  "description": "Pure Eat 500 g Garlic Paste",
+  "sku": "garlic/con",
+  "price": 3.84,
+  "image": "garlic_paste"
+  },
+  {
+    "name": "kissan jam",
+    "description": "Kissan Mixed Fruit Jam , With Real Fruit Ingredients,",
+    "sku": "jam/con",
+    "price": 4.84,
+    "image": "jam"
+  }
+]

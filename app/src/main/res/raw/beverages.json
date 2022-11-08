@@ -1,0 +1,47 @@
+[
+  {
+    "name": "milk",
+    "description": "an opaque white fluid rich in fat and protein, secreted by female mammals for the nourishment of their young",
+    "sku": "mil/bev",
+    "price": 1.99,
+    "image": "milk"
+  },
+  {
+    "name": "orange juice",
+    "description": "a drink made from or flavoured with oranges",
+    "sku": "ora/bev",
+    "price": 3.9,
+    "image": "orange_juice"
+  },
+  {
+    "name": "cherry juice",
+    "description": "a drink made from or flavoured with cherries",
+    "sku": "che/bev",
+    "price": 5.6,
+    "image": "cherry_juice"
+  },
+
+  {
+    "name": "mango juice",
+    "description": "a good juice for summer",
+    "sku": "man/bev",
+    "price": 6.5,
+    "image": "mango"
+  },
+  {
+    "name": "coca cola",
+    "description": "Coca-Cola Original Taste Soft Drink",
+    "sku": "coca/bev",
+    "price": 7.5,
+    "image": "coca_cola"
+  },
+  {
+    "name": "pepsi",
+    "description": "Pepsi Soft Drink",
+    "sku": "pepsi/bev",
+    "price": 5.4,
+    "image": "pepsi"
+  }
+
+
+]

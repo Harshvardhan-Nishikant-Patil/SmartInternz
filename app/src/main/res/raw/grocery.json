@@ -1,0 +1,59 @@
+[
+  {
+    "name": "watermelon",
+    "description": "a large oblong or roundish fruit with a hard green or white rind often striped or variegated, a sweet watery pink, yellowish, or red pulp, and usually many seeds",
+    "sku": "wat/gro",
+    "price": 2.49,
+    "image": "watermelon"
+  },
+  {
+    "name": "eggplant",
+    "description": "the purple egg-shaped fruit of a tropical Old World plant, which is eaten as a vegetable; an aubergine",
+    "sku": "egg/gro",
+    "price": 3.99,
+    "image": "eggplant"
+  },
+  {
+    "name": "coconut",
+    "description": "the drupaceous fruit of the coconut palm whose outer fibrous husk yields coir and whose nut contains thick edible meat and, in the fresh fruit, a clear liquid",
+    "sku": "coc/gro",
+    "price": 4.15,
+    "image": "coconut"
+  },
+  {
+    "name": "banana",
+    "description": "a long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe",
+    "sku": "ban/gro",
+    "price": 0.99,
+    "image": "banana"
+  },
+  {
+    "name": "corn",
+    "description": "a tall American cereal grass plant widely grown for its large ears of starchy grain which come in many varieties",
+    "sku": "cor/gro",
+    "price": 0.49,
+    "image": "corn"
+  },
+  {
+    "name": "apple",
+    "description": "the fleshy, usually rounded red, yellow, or green edible pome fruit of a usually cultivated tree",
+    "sku": "app/gro",
+    "price": 3.29,
+    "image": "apple"
+  },
+
+  {
+    "name": "olive",
+    "description": "a small oval fruit with a hard stone and bitter flesh, green when unripe and bluish black when ripe, used as food and as a source of oil",
+    "sku": "oli/gro",
+    "price": 6.89,
+    "image": "olive"
+  },
+  {
+    "name": "onion",
+    "description": "Seedscare Red Onion ",
+    "sku": "onion/gro",
+    "price": 4.89,
+    "image": "onion"
+  }
+]

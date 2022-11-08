@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/dark_blue"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/sign_out_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/custom_transparent_button"
+                    app:icon="@drawable/signout_logo_edited"
+                    app:iconGravity="textEnd"
+                    app:iconSize="@android:dimen/app_icon_size"
+                    app:iconTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/go_to_orders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/custom_transparent_button"
+                    app:icon="@drawable/previous_logo_edited"
+                    app:iconSize="@android:dimen/app_icon_size"
+                    app:iconTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#F2F2F2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="188dp"
+                    android:text="@string/price"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/price_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:checked="false"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/min_to_max"
+                    android:textColor="@color/dark_blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/price_switch" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/max_to_min"
+                    android:textColor="@color/dark_blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/price_switch" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/custom_stroke_background"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <HorizontalScrollView
+                    android:layout_width="409dp"
+                    android:layout_height="68dp"
+                    android:textAlignment="textEnd"
+                    android:textDirection="rtl"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <android.widget.Button
+                            android:id="@+id/filter_all_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/all_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/all"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <android.widget.Button
+                            android:id="@+id/filter_beverage_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="4dp"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/beverage_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/beverage"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <android.widget.Button
+                            android:id="@+id/filter_canned_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/canned_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/canned"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <android.widget.Button
+                            android:id="@+id/filter_condiment_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/condiment_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/condiment"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <android.widget.Button
+                            android:id="@+id/filter_grocery_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/grocery_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/grocery"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <android.widget.Button
+                            android:id="@+id/filter_snack_button"
+                            android:layout_width="75dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_white_with_stroke"
+                            android:drawableTop="@drawable/snack_logo_edit"
+                            android:drawableTint="@color/dark_blue"
+                            android:paddingTop="10dp"
+                            android:text="@string/snack"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            app:iconSize="@android:dimen/app_icon_size"
+                            app:iconTint="@color/white"
+                            tools:ignore="SpeakableTextPresentCheck" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+            <TextView
+                android:id="@+id/filter_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/filter" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/items_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/dark_blue"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/cart_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/custom_transparent_button"
+                    app:icon="@drawable/ic_cart"
+                    app:iconGravity="start"
+                    app:iconSize="@android:dimen/app_icon_size"
+                    app:iconTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/items_count_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:gravity="center"
+                    android:text="@string/digit_0"
+                    app:layout_constraintEnd_toEndOf="@+id/cart_button"
+                    app:layout_constraintTop_toTopOf="@+id/cart_button" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

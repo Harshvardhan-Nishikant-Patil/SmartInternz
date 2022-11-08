@@ -1,0 +1,37 @@
+[
+  {
+    "name": "pea soup",
+    "description": "soup made from peas, especially a thick, yellowish soup made from dried split peas",
+    "sku": "pea/can",
+    "price": 0.99,
+    "image": "pea_soup"
+  },
+  {
+    "name": "fish",
+    "description": "fish preserved and stored in an airtight can",
+    "sku": "fis/can",
+    "price": 1.41,
+    "image": "fish"
+  },
+  {
+    "name": "pickled beet",
+    "description": "Beets that have gone through a pickling or fermentation process",
+    "sku": "bee/can",
+    "price": 0.99,
+    "image": "pickled_beet"
+  },
+  {
+    "name": "tomato soup",
+    "description": "The Campbell tomato soup",
+    "sku": "tomato/can",
+    "price": 1.99,
+    "image": "tomato_soup"
+  },
+  {
+    "name": "meat",
+    "description": "canned meat always ready for eating",
+    "sku": "meat/can",
+    "price": 10,
+    "image": "meat"
+  }
+]

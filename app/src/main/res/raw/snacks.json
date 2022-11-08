@@ -1,0 +1,44 @@
+[
+  {
+    "name": "paystree",
+    "description": "Chocolate Truffle Layer Cake",
+    "sku": "paystree/sna",
+    "price": 6.2,
+    "image": "paystree"
+  },
+  {
+    "name": "doracakes",
+    "description": "Dorayaki: Japanese Sweet-Filled Pancakes",
+    "sku": "doracake/sna",
+    "price": 7.2,
+    "image": "doracake"
+  },
+  {
+    "name": "yoghurt",
+    "description": "a semi-solid food prepared from milk fermented by added bacteria, often sweetened and flavoured",
+    "sku": "yog/sna",
+    "price": 0.9,
+    "image": "yoghurt"
+  },
+  {
+    "name": "biscuit",
+    "description": "a small baked unleavened cake, typically crisp, flat, and sweet",
+    "sku": "bis/sna",
+    "price": 1.5,
+    "image": "biscuit"
+  },
+  {
+    "name": "cookie",
+    "description": "a sweet biscuit having a fairly soft, chewy texture and typically containing pieces of chocolate or fruit",
+    "sku": "bis/sna",
+    "price": 1.2,
+    "image": "cookie"
+  },
+  {
+    "name": "nuts",
+    "description": "a simple dry fruits for your day to day life",
+    "sku": "nuts/sna",
+    "price": 5.2,
+    "image": "nuts"
+  }
+]
